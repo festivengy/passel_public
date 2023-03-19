@@ -34,12 +34,12 @@ client = commands.Bot(command_prefix='p.',
 client.remove_command("help")
 
 # TODO change mode to 1 or 2 here
-mode = 2
+mode = 1
 
 # TODO 
 # sendall is set to 0 by default, change to 1 if you want
 # the bot to send all pinned messages to the pins channel
-sendall = 0
+sendall = 1086829799999275018
 
 # TODO 
 # replace the 0 with the pins channel ID for your sever
@@ -48,7 +48,7 @@ pins_channel = 948375476685111296/954794285222486046
 # TODO
 # add any black listed channel IDs as a list separated by a comma (,)
 # a good idea is to add admin channels to this
-blacklisted_channels = []
+blacklisted_channels = [936414343803850774, 936434462747684884, 936434474374275153, 936434510717939802, 936434555148206110, 936434566904840222, 936615055989047306, 936615055989047306, 940299992185315468, 1019147858798186586, 941164009330180126, 941164030159126549, 944370121546268713, 936847380379218010, 940963010678247454, 1032487023342260234]
 
 # discord embed colors
 EMBED_COLORS = [
